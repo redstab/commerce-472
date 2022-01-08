@@ -18,7 +18,7 @@ async function main() {
 	});
 
 	server.listen().then(({ url }) => {
-		console.log(`🚀  Server ready at ${url}`);
+		console.log(`🚀 Server ready at ${url}`);
 	});
 }
 

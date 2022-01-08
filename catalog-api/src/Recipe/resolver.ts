@@ -9,6 +9,7 @@ export class PostResolver {
 			where: {
 				id,
 			},
+            rejectOnNotFound: true
 		});
 	}
 }
